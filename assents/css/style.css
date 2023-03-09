@@ -1,0 +1,132 @@
+.container {
+    max-width: 1100px;
+}
+header {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+}
+.title-color{
+   color: white;
+}
+.btn{
+    background-color: yellow;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    width: 300px;
+}
+#row-historia{
+    background-image: url('https://img.freepik.com/free-vector/gradient-abstract-red-background-with-geometric-elements_23-2149399996.jpg?w=996&t=st=1678329148~exp=1678329748~hmac=0bbf05933688658cc3ca4d90ff21c35a8e5956cb4f3c15156d46c4d519a71787');
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.row{
+    margin: 0;
+
+}
+.img1{
+    width: 120px;
+    height: 100px;
+}
+.img2{
+    width: 200px;
+}
+#row-historia img{
+    border-radius: 30%;
+    width: 300px;
+}
+#row-personajes{
+    background-image: url('https://img.freepik.com/free-vector/yellow-background-comic-style_23-2149034892.jpg?w=996&t=st=1678329269~exp=1678329869~hmac=84b46c1203889460780e42d3f204fa71467a64691e57daf3a8479eeb923f32f4');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#row-creador{
+    background-image: url('https://img.freepik.com/free-vector/gradient-abstract-red-background-with-geometric-elements_23-2149399996.jpg?w=996&t=st=1678329148~exp=1678329748~hmac=0bbf05933688658cc3ca4d90ff21c35a8e5956cb4f3c15156d46c4d519a71787');
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+#row-crossovers{
+    background-image: url('https://img.freepik.com/free-vector/yellow-background-comic-style_23-2149034892.jpg?w=996&t=st=1678329269~exp=1678329869~hmac=84b46c1203889460780e42d3f204fa71467a64691e57daf3a8479eeb923f32f4');
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#row-descargar{
+    background-image: url('https://img.freepik.com/free-photo/abstract-luxury-soft-red-background-christmas-valentines-layout-design-studio-room-web-template-business-report-with-smooth-circle-gradient-color_1258-82782.jpg?w=1060&t=st=1678329306~exp=1678329906~hmac=3b8b511206053e0f9d0a86da62423253ad67d4063c2215df17bd1963805c91f1');
+    background-size: cover;
+    background-position: center;
+    padding-top: 140px ;
+    padding-bottom: 140px;
+    color: white;
+}
+
+#row-creador img{
+    border-radius: 30%;
+    width: 300px;
+}
+#row-crossovers img{
+    border-radius: 30%;
+    width: 100px;
+}
+#row-personajes img{
+    border-radius: 30%;
+    width: 100px;
+}
+#row-historia p{
+    font-size: 15px;
+}
+#row-creador p{
+    font-size: 15px;
+}
+#row-crossovers p{
+    font-size: 15px;
+}
+#row-descargar p{
+    font-size: 15px;
+}
+#row-descargar a{
+    background-color: white;
+}
+.form-control{
+    border-radius: 50px;
+}
+footer{
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:992px){
+    .navbar-nav{
+        background-color: white;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
+nav{
+    z-index: 100;
+    font-size: 20px;
+}
+
+nav a:hover{
+    background-color: yellow;
+    padding-left: 20px;
+}
